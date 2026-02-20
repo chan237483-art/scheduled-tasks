@@ -1,4 +1,7 @@
-import datetime,smtplib,random,pandas
+import datetime
+import smtplib
+import random
+import pandas
 import os
 
 birthdays_list = pandas.read_csv('birthdays.csv')
